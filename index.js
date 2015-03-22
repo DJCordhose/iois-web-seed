@@ -13,6 +13,15 @@ server.views({
     path: './views',
     partialsPath: './views/partials'
 });
+server.route({
+    method: 'GET',
+    path: '/public/{param*}',
+    handler: {
+        directory: {
+            path: 'public'
+        }
+    }
+});
 
 server.route({
     method: 'GET',

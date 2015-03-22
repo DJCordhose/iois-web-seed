@@ -12,6 +12,9 @@ A quick start seed for a web application using io.js
 * bootstrap
 * optionally react
 
+## Resources
+* TODO
+
 ## Dev Tools
 * Tests: Mocha, Chai, Sinon
 * Build: Gulp
@@ -25,4 +28,27 @@ A quick start seed for a web application using io.js
     * Store to mongo
     * Generate public link for it to share
     * Generate private link for it to administrate
-* Optional: Inverse rant analyzer :D
+* Optional: Inverse rant analyzer
+    * Category both for learning as well as analysis: rant or praise
+    * Using ML to learn
+    * Sample applications
+      * iojs vs node
+      * Js Web Frameworks
+
+## Workshop style
+* Two parts
+* In part one we introduce the technology stack
+* In part two participants install the application and choose one of the assignments for on technology
+* Participants can use resources, coaches, and other participants to accomplish assignments
+* It is recommended to pair on an assignment
+
+### Part one
+* 5 min: Each one introduces her/himself to neighbor 
+
+### Part two
+* Fork this project on github and clone it
+* Install io.js
+* npm install
+* npm start
+* use IDE/editor of your choice (use WebStorm or Atom, if you just do not know what to use)
+
