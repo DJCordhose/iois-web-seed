@@ -27,7 +27,7 @@ server.route({
     method: 'GET',
     path: '/',
     handler: (request, reply) => {
-        var greeting = request.query.greeting !== undefined ? request.query.greeting : 'Hello';
+        var greeting = request.query.greeting ? request.query.greeting : 'my friend';
         reply.view('index', {greeting: greeting});
     }
 });
@@ -37,7 +37,10 @@ server.register({
     options: {
         reporters: [{
             reporter: require('good-console'),
-            args: [{log: '*', response: '*'}]
+            events: {
+                response: '*',
+                log: '*'
+            }
         }]
     }
 }, (err) => {

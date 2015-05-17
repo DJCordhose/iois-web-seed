@@ -2,11 +2,17 @@
 <html>
 {{> head}}
 <body>
-<form>
-    <input name="greeting" value="{{greeting}}">
-    <p>{{greeting}}, World</p>
-    <a href="/?greeting=">Clear</a>
-    <input type="submit" class="btn btn-success" value="Send">
-</form>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            {{> form}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            {{> greeting}}
+        </div>
+    </div>
+</div>
 </body>
 </html>
