@@ -13,9 +13,6 @@ A quick start seed for a web application using io.js
 * optionally react
 
 ## TODO
-* jquery
-  * focus after update
-  * immediate update of greeting
 * store greeting in database
   * remember greeting as default from database
   * Generate public link for it to share
@@ -45,11 +42,6 @@ A quick start seed for a web application using io.js
 * In part two participants install the application and choose one of the assignments for on technology
 * Participants can use resources, coaches, and other participants to accomplish assignments
 * It is recommended to pair on an assignment
-
-### Assignments
-* store greeting in database
-* add interaction using jQuery
-* extend interface
 
 ### Part one
 * 5 min: Each one introduces her/himself to neighbor 

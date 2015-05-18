@@ -27,7 +27,7 @@ server.route({
     method: 'GET',
     path: '/',
     handler: (request, reply) => {
-        var greeting = request.query.greeting ? request.query.greeting : 'my friend';
+        var greeting = request.query.greeting;
         reply.view('index', {greeting: greeting});
     }
 });
