@@ -1,6 +1,11 @@
 # iois-web-seed
 A quick start seed for a web application using io.js
 
+## Concept
+* Have a complete application using the full stack
+* Comment out several parts to make it just a seed
+* Comment back in and explain what it does to application
+
 ## Server stack
 * io.js
 * hapi
@@ -11,30 +16,6 @@ A quick start seed for a web application using io.js
 * jQuery
 * bootstrap
 * optionally react
-
-## TODO
-* store greeting in database
-  * remember greeting as default from database
-  * Generate public link for it to share
-  * Generate private link for it to administrate
-* add link to picture in internet
-  * e.g., http://ichef.bbci.co.uk/naturelibrary/images/ic/credit/640x395/t/ta/talpidae/talpidae_1.jpg
-
-## Possible projects
-### Hello World
-### Quick Rant Generator
-* Add name of shitty tool, software, technique, technology
-* Check appropriate boxes (buggy, complicated as hell, no backward compatibility, etc.)
-* Generate rant
-    * Store to mongo
-    * Generate public link for it to share
-    * Generate private link for it to administrate
-* Optional: Inverse rant analyzer
-    * Category both for learning as well as analysis: rant or praise
-    * Using ML to learn
-    * Sample applications
-      * iojs vs node
-      * Js Web Frameworks
 
 ## Workshop style
 * Two parts
@@ -56,4 +37,10 @@ A quick start seed for a web application using io.js
 * use IDE/editor of your choice (use WebStorm or Atom, if you just do not know what to use)
 * mongod --config /usr/local/etc/mongod.conf
 
-### Part two
+## Possible projects
+### Quick Rant Generator
+* Add name of shitty tool, software, technique, technology
+* Check appropriate boxes (buggy, complicated as hell, no backward compatibility, etc.)
+* Generate rant
+    * Store to mongo
+    * Generate public link for it to share

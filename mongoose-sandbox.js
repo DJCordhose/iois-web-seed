@@ -3,7 +3,9 @@
 // http://emptymind.me/user-authentication-with-hapi-passport-and-mongoose/
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/test');
+const remoteUrl = 'mongodb://user:qweqwe123@ds031902.mongolab.com:31902/sandbox';
+const localUrl = 'mongodb://localhost/test';
+mongoose.connect(remoteUrl);
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function (callback) {

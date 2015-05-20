@@ -2,3 +2,4 @@
 node_modules
 public/lib/node_modules
 npm-debug.log
+remote-mongo-url.js
