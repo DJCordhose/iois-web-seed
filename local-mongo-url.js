@@ -1,2 +1,1 @@
-const localUrl = 'mongodb://localhost/sandbox';
-module.exports = localUrl;
+module.exports = 'mongodb://localhost/sandbox';
