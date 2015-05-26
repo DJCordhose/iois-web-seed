@@ -8,9 +8,9 @@ A quick start seed for a web application using io.js
 * mongoose
 
 ## Client stack
+* HTML5
 * jQuery
 * bootstrap
-* optionally react
 
 ## Workshop
 
